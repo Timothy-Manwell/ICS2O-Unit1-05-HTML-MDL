@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <!-- ICS2O-Unit1-05-HTML-MDL -->
+<!-- ICS2O-Unit1-05-HTML-MDL -->
 <html lang="en-ca">
   <head>
     <meta charset="utf-8" />
@@ -40,8 +38,17 @@
             class="mdl-textfield_input"
             type="text"
             pattern="[0-9]*"
-            id="demo-input"
+            id="demo-input" />
+          <!-- mdl-textfield__label -->
+          <label class="mdl-textfield__label" for="demo-input">Length of square (mm)</label>
+          <!-- class "mdl-textfield__error" -->
+          <span class="mdl-textfield__error">Input is not a number</span>
         </div>
+      </form>
+      <!-- Raised button with ripple -->
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect
+        mdl-button--accent">
+        Calculate area
     </main>
   </body>
 </html>
